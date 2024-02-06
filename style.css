@@ -1,0 +1,72 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-elements{
+    border: 1px solid #000;
+    width: 100%;
+    height: fit-content;
+    padding: 100px;
+    border-radius: 15px;
+}
+.login-text{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.input-label{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-top: 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+.input-name{
+    display: block;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 95%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    font-family: arial;
+    font-family: 'Inconsolata', monospace;
+}
+.button-action {
+    border: 2px solid rgb(84, 82, 82) !important;
+    border-radius: 10px;
+    padding: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.5s ease-out;
+    background: linear-gradient(to bottom, lightblue, lightpink);
+    color: rgb(84, 82, 82);
+    font-weight: bold;
+    margin-left: 5px;
+}
+/* Animation on hover */
+.button-action:hover {
+    transform: translateX(20px); /* Adjust the value based on your preference */
+}
+
+/* Passwords  */
+.passtext{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.icon1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.icon2{
+    display: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
